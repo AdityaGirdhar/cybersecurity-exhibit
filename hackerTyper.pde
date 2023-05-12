@@ -63,12 +63,17 @@ void draw() {
 }
 
 void keyPressed() {
-  if (typedIndex+5 < hackText.length()) {
+  if (typedIndex+10 < hackText.length()) {
     typedText += hackText.charAt(typedIndex);
     typedText += hackText.charAt(typedIndex+1);
     typedText += hackText.charAt(typedIndex+2);
     typedText += hackText.charAt(typedIndex+3);
     typedText += hackText.charAt(typedIndex+4);
-    typedIndex += 5;
+    typedText += hackText.charAt(typedIndex+5);
+    typedText += hackText.charAt(typedIndex+6);
+    typedText += hackText.charAt(typedIndex+7);
+    typedText += hackText.charAt(typedIndex+8);
+    typedText += hackText.charAt(typedIndex+9);
+    typedIndex += 10;
   }
 }
